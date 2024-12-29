@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Argomtech Skeiwatch C30 Negro",
+      "price": "35.00",
+      "image": "https://claroperupoc.vtexassets.com/arquivos/ids/1991442/70058431-01.png?v=638550298312830000"
+    },
+    {
+      "id": "03fb",
+      "name": "Argomtech Skeiwatch S55 Beige",
+      "price": "30",
+      "image": "https://claroperupoc.vtexassets.com/arquivos/ids/2077047/argomtech-skeiwatch-s55-beige.png?v=638576115000470000"
+    },
+    {
+      "id": "566b",
+      "name": "Watch GT 2 Diana B19V Marron",
+      "price": "39",
+      "image": "https://claroperupoc.vtexassets.com/arquivos/ids/1477532/huawei-watch-gt-2-diana-marron-20-11-2023.png?v=638360883865230000"
+    },
+    {
+      "id": "05f2",
+      "name": "Smartwatch ZTE Live 2 Negro",
+      "price": "100",
+      "image": "https://claroperupoc.vtexassets.com/arquivos/ids/1892826/Smartwatch-Live-2.png?v=638518157503970000"
+    }
+  ]
+}

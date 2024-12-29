@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="assets/logo.png" alt="Logotipo de AluraGeek" class="logo">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <section class="products">
+                <h1>Mis Productos</h1>
+                <div class="product-list" data-lista>
+                    <!-- Aquí se mostrarán las tarjetas de productos -->
+                </div>
+            </section>
+            <section class="form">
+                <h1>Agregar Producto</h1>
+                <form data-formulario>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre del producto" data-nombre required><br><br>
+                    <label for="precio">Precio:</label>
+                    <input type="number" id="precio" name="precio" placeholder="Precio del producto" data-precio required><br><br>
+                    <label for="imagen">Imagen:</label>
+                    <input type="text" id="imagen" name="imagen" placeholder="URL de la imagen" data-imagen required><br><br>
+                    <div class="button-container">
+                        <button type="submit" class="submit-button">Enviar</button>
+                        <button type="reset" class="reset-button">Limpiar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <img src="assets/logo.png" alt="Logotipo de AluraGeek" class="footer-logo">
+            <p>Desarrollado por [tu nombre]</p>
+            <p>© 2024 AluraGeek. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/listProducts.js" type="module"></script>
+    <script src="js/createProduct.js" type="module"></script>
+</body>
+</html>

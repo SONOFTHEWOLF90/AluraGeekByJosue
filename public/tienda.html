@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda - AluraGeek</title>
+    <link rel="stylesheet" href="tienda.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="assets/logo.png" alt="Logotipo de AluraGeek" class="logo">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <section class="products" id="products-section">
+                <h1>Mis Productos</h1>
+                <div class="product-list" data-lista>
+                    <!-- Aquí se mostrarán las tarjetas de productos -->
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <img src="assets/logo.png" alt="Logotipo de AluraGeek" class="footer-logo">
+            <p>Desarrollado por [tu nombre]</p>
+            <p>© 2024 AluraGeek. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="js/listProducts.js" type="module"></script>
+</body>
+</html>
