@@ -1,4 +1,4 @@
-import { getProducts } from '../js/api.js';
+import { getProducts } from '../api.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
     const productList = document.querySelector('.product-list');
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
 
         try {
-            const response = await fetch('http://localhost:3000/products', {
+            const response = await fetch('http://localhost:3001/products', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
